@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Blog Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>My Blog</h1>
+        <nav>
+            <ul>
+                <li><a href="#post1">First Post</a></li>
+                <li><a href="#post2">Second Post</a></li>
+                <li><a href="#post3">Third Post</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <article id="post1" class="blog-post">
+            <h2>My First Blog Post</h2>
+            <p class="date">Published on dec 13, 2024</p>
+            <img src="https://picsum.photos/800/400?random=1" alt="Random image for first post" class="post-image">
+            <p>Starting my journey as a full stack developer has been both challenging and rewarding. From mastering the basics of HTML, CSS, and JavaScript to diving into the complexities of the MERN stack, each step has been a valuable learning experience. I quickly learned that problem-solving and debugging are key skills in development. Building real-world projects helped me apply what I learned and sharpen my abilities. I’m excited to continue growing and embracing new technologies while contributing to impactful projects.</p>
+            <div class="comment-section">
+                <h3>Comments</h3>
+                <div class="comments"></div>
+                <form class="comment-form">
+                    <input type="text" placeholder="Your Name" required>
+                    <textarea placeholder="Your Comment" required></textarea>
+                    <button type="submit">Submit Comment</button>
+                </form>
+            </div>
+        </article>
+
+        <article id="post2" class="blog-post">
+            <h2>My Second Blog Post</h2>
+            <p class="date">Published on dec 14, 2024</p>
+            <img src="https://picsum.photos/800/400?random=2" alt="Random image for second post" class="post-image">
+            <p>As I continue my journey as a developer, I'm excited to explore emerging technologies like Artificial Intelligence, Machine Learning, and Blockchain. I’m particularly interested in how these can be integrated into full-stack development to create more intelligent and secure applications. Cloud computing and serverless architectures are also areas I’m keen to dive into, to enhance scalability and efficiency. I look forward to mastering tools like GraphQL and learning new frameworks to stay on top of the latest trends. The future of development is vast, and I’m eager to be part of it.</p>
+            <div class="comment-section">
+                <h3>Comments</h3>
+                <div class="comments"></div>
+                <form class="comment-form">
+                    <input type="text" placeholder="Your Name" required>
+                    <textarea placeholder="Your Comment" required></textarea>
+                    <button type="submit">Submit Comment</button>
+                </form>
+            </div>
+        </article>
+
+        <article id="post3" class="blog-post">
+            <h2>My Third Blog Post</h2>
+            <p class="date">Published on dec 14, 2024</p>
+            <img src="https://picsum.photos/800/400?random=3" alt="Random image for third post" class="post-image">
+            <p>I’m eager to deepen my expertise in databases, focusing on both SQL and NoSQL systems like PostgreSQL, MySQL, MongoDB, and Firebase Firestore. Exploring advanced database optimization techniques and indexing strategies excites me as it enhances application performance. I aim to understand distributed databases and data warehousing solutions to manage large-scale applications effectively. Learning database security and encryption methods is another priority to ensure data integrity and privacy. My goal is to become proficient in designing scalable and efficient database architectures for modern web applications.</p>
+            <div class="comment-section">
+                <h3>Comments</h3>
+                <div class="comments"></div>
+                <form class="comment-form">
+                    <input type="text" placeholder="Your Name" required>
+                    <textarea placeholder="Your Comment" required></textarea>
+                    <button type="submit">Submit Comment</button>
+                </form>
+            </div>
+        </article>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 My Blog. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
